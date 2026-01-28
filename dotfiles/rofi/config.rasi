@@ -1,0 +1,108 @@
+@import "colors.rasi"
+
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    drun-display-format: "{name}";
+    sidebar-mode: false;
+}
+
+* {
+    font: "JetBrainsMono Nerd Font 11";
+    background-color: transparent;
+    text-color: @on-surface;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+window {
+    width: 300px;
+    border-radius: 14px;
+    background-color: @surface;
+    border: 1px;
+    border-color: @outline-variant;
+}
+
+mainbox {
+    padding: 16px;
+    background-color: transparent;
+}
+
+inputbar {
+    padding: 10px 12px;
+    margin: 0 0 12px 0;
+    border-radius: 10px;
+    background-color: @surface-container;
+    text-color: @on-surface;
+}
+
+prompt {
+    enabled: false;
+}
+
+entry {
+    placeholder: "Nyari Apa?";
+    placeholder-color: @outline;
+    text-color: @inverse-surface;
+}
+
+listview {
+    lines: 6;
+    columns: 1;
+    fixed-height: false;
+    spacing: 6px;
+    background-color: transparent;
+}
+
+element {
+    padding: 10px 12px;
+    border-radius: 10px;
+    background-color: transparent;
+    text-color: @on-surface-variant;
+}
+
+element-icon {
+    size: 20px;
+    margin: 0 10px 0 0;
+}
+
+element-text {
+    text-color: inherit;
+}
+
+/* Selected (ikuti warna primary) */
+element selected normal {
+    background-color: @primary-container;  
+    text-color: @on-primary-container;    
+}
+
+element selected active {
+    background-color: @primary;            
+    text-color: @on-primary;               
+}
+
+element selected urgent {
+    background-color: @error-container;    
+    text-color: @on-error-container;
+}
+
+
+/* Active (running app) */
+element active {
+    background-color: @surface-container-high;
+    text-color: @on-surface;
+}
+
+/* Urgent */
+element urgent {
+    background-color: @error-container;
+    text-color: @on-error-container;
+}
+
+scrollbar {
+    width: 0px;
+    handle-width: 0px;
+    background-color: transparent;
+}

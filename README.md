@@ -1,6 +1,6 @@
 # dotfiles
 
-my first ricing on arch linux
+my first ricing on hyprland, i got many references from other!!
 
 <img width="1920" height="1080" alt="2026-01-30-051656_hyprshot" src="https://github.com/user-attachments/assets/df956e39-60d2-4a08-9b81-3315657feb56" />
 <img width="1920" height="1080" alt="2026-01-30-051549_hyprshot" src="https://github.com/user-attachments/assets/59f87d2d-1064-42b3-936c-05b2e11fbdaa" />
